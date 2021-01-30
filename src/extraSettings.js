@@ -13,8 +13,8 @@ let firstFruit = 0;
 
 let setFruit = {
   startFruits: [],
-  minNum: 0,
-  maxNum: 5,
+  minNum: 1,
+  maxNum: 7,
   randomFunction: () => {
     return this.minNum + Math.floor(Math.random() * (this.maxNum - this.minNum))
   }
